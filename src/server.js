@@ -19,6 +19,13 @@ app.use(pinoHttp({ logger }));
 app.use(cors());
 app.use(express.json());
 
+// Root endpoint for Render health checks
+app.get('/', (_req, res) => res.json({ 
+  message: 'Diet AI API Service', 
+  status: 'running',
+  endpoints: ['/health', '/products', '/users', '/orders', '/recommend']
+}));
+
 app.get('/health', (_req, res) => res.json({ ok: true }));
 
 app.use('/users', usersRouter(prisma));
@@ -29,4 +36,4 @@ app.use('/recommend', recommendRouter(prisma));
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
   logger.info({ port }, 'API server listening');
-}); 
+});
