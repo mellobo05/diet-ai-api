@@ -1,0 +1,7 @@
+externalId,title,description,category,price,discountPct,calories,proteinGrams,fatGrams,carbsGrams,keywords,isDiet
+SKU-1001,Grilled Chicken Salad,Fresh greens with grilled chicken and vinaigrette,Salads,12.99,10,350,30,10,25,healthy|salad|chicken,true
+SKU-1002,Quinoa Bowl,Nutritious quinoa with roasted veggies and tofu,Bowls,10.50,0,420,18,12,55,vegan|quinoa|bowl,true
+SKU-1003,Turkey Sandwich,Whole grain turkey sandwich,Sandwiches,8.99,5,500,28,14,60,sandwich|turkey,false
+SKU-1004,Greek Yogurt Parfait,Low-fat yogurt with berries and granola,Desserts,4.99,0,220,15,4,32,yogurt|berries|parfait,true
+SKU-1005,Protein Shake,Chocolate whey protein shake,Drinks,5.49,0,180,25,3,15,protein|shake|whey,true
+
